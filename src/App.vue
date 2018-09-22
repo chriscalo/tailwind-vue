@@ -6,31 +6,36 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import HelloWorld from "./components/HelloWorld.vue";
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+  export default {
+    name: "app",
+    components: {
+      HelloWorld,
+    },
+  };
 </script>
 
+<style src="@/assets/styles.css"/>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
 
 <!-- example Tailwind styles -->
 <style scoped>
-#app {
-  color: config('colors.white');
-  @apply bg-black;
-}
+  #app {
+    color: config('colors.white');
+  }
+  
+  :root {
+    @apply bg-black;
+  }
 </style>
