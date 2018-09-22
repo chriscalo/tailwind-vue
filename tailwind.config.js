@@ -949,16 +949,4 @@ module.exports = {
     separator: ':',
   },
   
-  /*
-  |-----------------------------------------------------------------------------
-  | Experiments
-  |-----------------------------------------------------------------------------
-  */
-  experiments: {
-    // [Experiment] Allow `@apply`-ing utility classes that aren't explicitly
-    // defined but would be generated
-    // https://github.com/tailwindcss/tailwindcss/pull/516
-    shadowLookup: true,
-  },
-
 };
