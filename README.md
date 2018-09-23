@@ -3,9 +3,6 @@
 Example of using Tailwind in a Vue.js app. Inspired by Andre Madarang's tutorial
 [Tailwind CSS with Vue CLI 3][1].
 
-Makes use of [an experiment][2] that allows `@apply`-ing utility classes that
-aren't explicitly defined but would be generated.
-
 
 ## Project setup
 ```
